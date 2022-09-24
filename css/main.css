@@ -1,0 +1,74 @@
+h2 {
+    color: skyblue;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+ol {
+    background-color: royalblue;
+}
+li {
+    background-color: cornflowerblue;
+}
+#navbar {
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+#navbar th {
+    border-style: solid;
+}
+body {
+    background-image: url(../img/black-brick-wall-textured-background.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #000080;
+    color: #FFFAFF;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar th {
+    border: solid #000080;
+    padding: 5px; ;
+}
+footer {
+    background-color: #000080;
+    color: #FFFAFF;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+}
+.profile {
+    background-color: #3e92cc;
+    text-align: center;
+}
+.even-row {
+    background-color: #5764a5;
+}
+#navbar {
+    background-color: #FFFAFF;
+    border: solid #000080;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    background-color: #FFFAFF;
+    color: #000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.active {
+    background-color: lightcoral;
+}
